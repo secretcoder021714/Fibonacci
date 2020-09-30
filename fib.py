@@ -1,8 +1,9 @@
+#This is the recursive Function
 def fib1(a):
 	if a<=1:
 		return a
 	return fib1(a-1) + fib1(a-2)
-
+#This is the efficient function
 def fib2(l):
 	a = 0
 	b = 1
